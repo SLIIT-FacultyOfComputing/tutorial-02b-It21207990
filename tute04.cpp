@@ -40,7 +40,7 @@ long Factorial(int no)
 }
 long nCr(int n, int r)
 {
-   return (Factorial(n)/Factorial(r)*Factorial((n-r)));
+   return Factorial(n)/(Factorial(r)*Factorial(n-r));
   
   
 }
